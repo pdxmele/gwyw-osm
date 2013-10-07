@@ -15,6 +15,7 @@ _OSM tags each have a key and a value. The purpose of this list is to help you p
 * [building](http://wiki.openstreetmap.org/wiki/Key:building): various types of buildings
 * [shop](http://wiki.openstreetmap.org/wiki/Key:shop): various kinds of shops
 * [office](http://wiki.openstreetmap.org/wiki/Key:office): various kinds of offices
+* [man_made](http://wiki.openstreetmap.org/wiki/Key:man_made): various other man-made features, like lighthouses, breakwaters, and windmills
 
 ### Transportation
 * [highway](http://wiki.openstreetmap.org/wiki/Key:highway): streets, footpaths, bike paths, and public transportation facilities
@@ -25,6 +26,7 @@ _OSM tags each have a key and a value. The purpose of this list is to help you p
 * [ref](http://wiki.openstreetmap.org/wiki/Key:ref): reference ID for a feature, like an interstate or state highway number
 * [route](http://wiki.openstreetmap.org/wiki/Key:route): describes the type of route
 * [operator](http://wiki.openstreetmap.org/wiki/Key:operator): who operates the public transportation route, railway, etc.
+* Good for road cartography: [bridge](http://wiki.openstreetmap.org/wiki/Key:bridge), [tunnel](http://wiki.openstreetmap.org/wiki/Key:tunnel), [layer](http://wiki.openstreetmap.org/wiki/Key:layer)
 
 ### Land cover
 * [landuse](http://wiki.openstreetmap.org/wiki/Key:landuse): various human land uses (residential, farms, construction)
@@ -37,4 +39,4 @@ _OSM tags each have a key and a value. The purpose of this list is to help you p
 * [admin_level](http://wiki.openstreetmap.org/wiki/Admin_level): for boundary = administrative, how to tell the difference between cities and countries
 * [place](http://wiki.openstreetmap.org/wiki/Key:place): cities and neighborhoods, usually represented as points
 
-Also, check out the osm2pgsql [default style file](https://github.com/openstreetmap/osm2pgsql/blob/master/default.style) for the keys it includes
+_Also, check out the osm2pgsql [default style file](https://github.com/openstreetmap/osm2pgsql/blob/master/default.style) for the common keys that it includes_
