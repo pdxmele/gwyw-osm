@@ -1,19 +1,19 @@
-#Converters to turn OSM data into other data types:
+##Converters to turn OSM data into other data types:
 
-##Smaller stuff:
+###Smaller stuff:
 
-###GeoJSON:
+####GeoJSON:
 * osm-and-geojson : http://aaronlidman.com/osm-and-geojson
 * osm2geo: https://gist.github.com/tecoholic/1396990
 * osmtogeojson: https://github.com/tyrasd/osmtogeojson
 
-###Shapefile:
+####Shapefile:
 * http://wiki.openstreetmap.org/wiki/Shapefiles#Making_shapefiles_from_OpenStreetMap_data
 
-###Various formats:
+####Various formats:
 * QGIS (native support for 2.0+, plugin for earlier versions): After importing or downloading OSM data, select what you want and then do Save As… to select a new format/projection
 
-##Bigger stuff (various formats):
+###Bigger stuff (various formats):
 
 * Osmium: http://wiki.openstreetmap.org/wiki/Osmium
 * osm2pgsql: the standard for rendering full tilesets
@@ -30,5 +30,5 @@ ogr2ogr -f GeoJSON multipolygons.json data.osm.pbf multipolygons
 ogr2ogr -f GeoJSON other_relations.json data.osm.pbf other_relations
 ```
 
-#Going the other direction:
+###Going the other direction:
 * ogr2osm: http://wiki.openstreetmap.org/wiki/Ogr2osm
