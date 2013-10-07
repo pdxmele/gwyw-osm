@@ -23,10 +23,10 @@
 _Note: most of these require using the command line. If you're not used to that, don't be afraid! It can save you a lot of time!_
 
 ####To various formats:
-* Osmium: built with C++ and JavaScript, powers a number of other tools
+* [Osmium](https://github.com/joto/osmium): built with C++ and JavaScript, powers a number of other tools
   * http://wiki.openstreetmap.org/wiki/Osmium
-* ogr2ogr (part of GDAL): convert to GeoJSON, Shapefile, PostGIS, and a variety of other formats
-  * http://www.gdal.org/ogr/drv_osm.html
+* [ogr2ogr](http://www.gdal.org/ogr2ogr.html) (part of GDAL): convert to GeoJSON, Shapefile, PostGIS, and a variety of other formats
+  * OSM driver documentation: http://www.gdal.org/ogr/drv_osm.html
   * Do each geometry type separately for best results:
 
   ```
@@ -39,18 +39,19 @@ _Note: most of these require using the command line. If you're not used to that,
 
 ####To PostGIS:
 
-* osm2pgsql: the standard for rendering full tilesets with Mapnik
+* [osm2pgsql](https://github.com/openstreetmap/osm2pgsql): the standard for rendering full tilesets with Mapnik. Mac, Debian/Ubuntu, and even Windows compatible.
   * http://wiki.openstreetmap.org/wiki/Osm2pgsql
   * http://manpages.ubuntu.com/manpages/lucid/man1/osm2pgsql.1.html
-* Imposm: Python-powered and optimized for visualization
+* [Imposm](http://imposm.org/): Python-powered and optimized for visualization
   * http://wiki.openstreetmap.org/wiki/Imposm
-* osm2posgresql: http://wiki.openstreetmap.org/wiki/Osm2postgresql
+* [osm2posgresql](http://sourceforge.net/projects/osm2postgresql/): Linux script
+  * http://wiki.openstreetmap.org/wiki/Osm2postgresql
 
 #### After it's in PostGIS:
 * [TileMill](http://www.mapbox.com/tilemill/) and [QGIS](http://qgis.org/) can use PostGIS tables directly
 * Built-in pgsql2shp: http://manpages.ubuntu.com/manpages/lucid/man1/pgsql2shp.1.html
 * Built-in ST_AsGeoJSON function: http://postgis.net/docs/ST_AsGeoJSON.html
-* ogr2ogr: http://www.gdal.org/ogr2ogr.html
+* [ogr2ogr](http://www.gdal.org/ogr2ogr.html)
 
 ###Going the other direction:
 * ogr2osm: http://wiki.openstreetmap.org/wiki/Ogr2osm
