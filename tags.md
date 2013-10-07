@@ -18,10 +18,11 @@ _OSM tags each have a key and a value. The purpose of this list is to help you p
 * [man_made](http://wiki.openstreetmap.org/wiki/Key:man_made): various other man-made features, like lighthouses, breakwaters, and windmills
 
 ### Transportation
-* [highway](http://wiki.openstreetmap.org/wiki/Key:highway): streets, footpaths, bike paths, and public transportation facilities
+* [highway](http://wiki.openstreetmap.org/wiki/Key:highway): streets, footpaths, bike paths, some public transportation
 * [service](http://wiki.openstreetmap.org/wiki/Key:service): for highway = service, more information about the type of service road
 * [cycleway](http://wiki.openstreetmap.org/wiki/Key:cycleway): bicycle infrastructure, also cycleway:right and cycleway:left
 * [railway](http://wiki.openstreetmap.org/wiki/Key:railway): rail facilities
+* [public_transport](http://wiki.openstreetmap.org/wiki/Key:public_transport): other public transportation features
 * [aeroway](http://wiki.openstreetmap.org/wiki/Key:aeroway): various airport-related things
 * [ref](http://wiki.openstreetmap.org/wiki/Key:ref): reference ID for a feature, like an interstate or state highway number
 * [route](http://wiki.openstreetmap.org/wiki/Key:route): describes the type of route
