@@ -18,7 +18,7 @@
 * [QGIS](http://qgis.org/): native support for 2.0+, plugin for earlier versions
   * After importing or downloading OSM data, select the features you want and then do Save As… to select a new format and/or projection
 
-###Larger datasets (to various formats):
+###Larger datasets:
 
 _Note: most of these require using the command line. If you're not used to that, don't be afraid! It can save you a lot of time!_
 
