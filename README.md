@@ -1,7 +1,7 @@
-gwyw-osm
-========
+Getting what you want out of OpenStreetMap
+==========================================
 
-Repo for my talk at NACIS 2013 Practical Cartography Day: "Getting what you want out of OpenStreetMap"
+Repo for my talk at NACIS 2013 Practical Cartography Day on how to get and prepare OSM data for cartographic use
 
 This will eventually include:
 
