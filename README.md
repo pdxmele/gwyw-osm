@@ -1,7 +1,7 @@
 gwyw-osm
 ========
 
-Repo for my talk at NACIS 2013: "Getting what you want out of OpenStreetMap"
+Repo for my talk at NACIS 2013 Practical Cartography Day: "Getting what you want out of OpenStreetMap"
 
 This will eventually include:
 
