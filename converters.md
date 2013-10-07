@@ -15,7 +15,7 @@
 * OSMLib (Ruby): http://osmlib.rubyforge.org/
 
 ####To various formats, including GeoJSON and Shapefile:
-* QGIS: native support for 2.0+, plugin for earlier versions
+* [QGIS](http://qgis.org/): native support for 2.0+, plugin for earlier versions
   * After importing or downloading OSM data, select the features you want and then do Save As… to select a new format and/or projection
 
 ###Larger datasets (to various formats):
@@ -47,7 +47,7 @@ _Note: most of these require using the command line. If you're not used to that,
 * osm2posgresql: http://wiki.openstreetmap.org/wiki/Osm2postgresql
 
 #### After it's in PostGIS:
-* TileMill and QGIS can use PostGIS tables directly
+* [TileMill](http://www.mapbox.com/tilemill/) and [QGIS](http://qgis.org/) can use PostGIS tables directly
 * Built-in pgsql2shp: http://manpages.ubuntu.com/manpages/lucid/man1/pgsql2shp.1.html
 * Built-in ST_AsGeoJSON function: http://postgis.net/docs/ST_AsGeoJSON.html
 * ogr2ogr: http://www.gdal.org/ogr2ogr.html
