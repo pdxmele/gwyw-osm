@@ -12,7 +12,7 @@
 
 ####To Shapefile:
 * Several things called "osm2shp": http://wiki.openstreetmap.org/wiki/Shapefiles#Create_your_own_shapefiles
-* OSMLib (Ruby): http://osmlib.rubyforge.org/
+* [OSMLib](http://osmlib.rubyforge.org/) (Ruby): http://osmlib.rubyforge.org/osmlib-export/rdoc/index.html
 
 ####To various formats, including GeoJSON and Shapefile:
 * [QGIS](http://qgis.org/): native support for 2.0+, plugin for earlier versions
@@ -39,7 +39,7 @@ _Note: most of these require using the command line. If you're not used to that,
 
 ####To PostGIS:
 
-* [osm2pgsql](https://github.com/openstreetmap/osm2pgsql): the standard for rendering full tilesets with Mapnik. Mac, Debian/Ubuntu, and even Windows compatible.
+* [osm2pgsql](https://github.com/openstreetmap/osm2pgsql): the standard for rendering full tilesets with Mapnik. Mac, Linux, and even Windows compatible.
   * http://wiki.openstreetmap.org/wiki/Osm2pgsql
   * http://manpages.ubuntu.com/manpages/lucid/man1/osm2pgsql.1.html
 * [Imposm](http://imposm.org/): Python-powered and optimized for visualization
@@ -54,4 +54,4 @@ _Note: most of these require using the command line. If you're not used to that,
 * [ogr2ogr](http://www.gdal.org/ogr2ogr.html)
 
 ###Going the other direction:
-* ogr2osm: http://wiki.openstreetmap.org/wiki/Ogr2osm
+* [ogr2osm](http://wiki.openstreetmap.org/wiki/Ogr2osm)
