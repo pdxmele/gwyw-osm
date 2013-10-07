@@ -11,7 +11,7 @@
   * https://github.com/tyrasd/osmtogeojson
 
 ####To Shapefile:
-* http://wiki.openstreetmap.org/wiki/Shapefiles#Making_shapefiles_from_OpenStreetMap_data
+* Several things called "osm2shp": http://wiki.openstreetmap.org/wiki/Shapefiles#Create_your_own_shapefiles
 * OSMLib (Ruby): http://osmlib.rubyforge.org/
 
 ####To various formats, including GeoJSON and Shapefile:
