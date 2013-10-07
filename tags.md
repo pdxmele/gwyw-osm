@@ -37,3 +37,4 @@ _OSM tags each have a key and a value. The purpose of this list is to help you p
 * [admin_level](http://wiki.openstreetmap.org/wiki/Admin_level): for boundary = administrative, how to tell the difference between cities and countries
 * [place](http://wiki.openstreetmap.org/wiki/Key:place): cities and neighborhoods, usually represented as points
 
+Also, check out the osm2pgsql [default style file](https://github.com/openstreetmap/osm2pgsql/blob/master/default.style) for the keys it includes
