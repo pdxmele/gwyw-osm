@@ -25,17 +25,17 @@ _Note: most of these require using the command line. If you're not used to that,
 ####To various formats:
 * Osmium: built with C++ and JavaScript, powers a number of other tools
   * http://wiki.openstreetmap.org/wiki/Osmium
-* ogr2ogr (part of GDAL): convert large files to GeoJSON or a variety of other formats
+* ogr2ogr (part of GDAL): convert to GeoJSON, Shapefile, PostGIS, and a variety of other formats
   * http://www.gdal.org/ogr/drv_osm.html
   * Do each geometry type separately for best results:
 
-```
-ogr2ogr -f GeoJSON points.json data.osm.pbf points
-ogr2ogr -f GeoJSON lines.json data.osm.pbf lines
-ogr2ogr -f GeoJSON multilinestrings.json data.osm.pbf multilinestrings
-ogr2ogr -f GeoJSON multipolygons.json data.osm.pbf multipolygons
-ogr2ogr -f GeoJSON other_relations.json data.osm.pbf other_relations
-```
+  ```
+  ogr2ogr -f GeoJSON points.json data.osm.pbf points
+  ogr2ogr -f GeoJSON lines.json data.osm.pbf lines
+  ogr2ogr -f GeoJSON multilinestrings.json data.osm.pbf multilinestrings
+  ogr2ogr -f GeoJSON multipolygons.json data.osm.pbf multipolygons
+  ogr2ogr -f GeoJSON other_relations.json data.osm.pbf other_relations
+  ```
 
 ####To PostGIS:
 
