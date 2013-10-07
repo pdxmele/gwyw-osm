@@ -3,11 +3,11 @@
 ###Smaller datasets:
 
 ####To GeoJSON:
-* osm-and-geojson : an easy web-based tool where you just paste in your .osm file and click a button
+* osm-and-geojson : an easy web-based tool where you just paste in your OSM XML and click a button
   * http://aaronlidman.com/osm-and-geojson
 * osm2geo: JavaScript that you can add to a webpage to make the browser do the work
   * https://gist.github.com/tecoholic/1396990
-* osmtogeojson: another tool written with JavaScript, can be used as a NodeJS library or a script on a page
+* osmtogeojson: another tool written with JavaScript, can be used as a NodeJS library or a script on a webpage
   * https://github.com/tyrasd/osmtogeojson
 
 ####To Shapefile:
@@ -15,12 +15,12 @@
 * [OSMLib](http://osmlib.rubyforge.org/) (Ruby): http://osmlib.rubyforge.org/osmlib-export/rdoc/index.html
 
 ####To various formats, including GeoJSON and Shapefile:
-* [QGIS](http://qgis.org/): native support for 2.0+, plugin for earlier versions
+* [QGIS](http://qgis.org/): native support in version 2.0, OSM plugin for earlier versions
   * After importing or downloading OSM data, select the features you want and then do Save As… to select a new format and/or projection
 
 ###Larger datasets:
 
-_Note: most of these require using the command line. If you're not used to that, don't be afraid! It can save you a lot of time!_
+_Note: most of these require using the command line. If you're not used to that, don't be afraid--it can save you a lot of time!_
 
 ####To various formats:
 * [Osmium](https://github.com/joto/osmium): built with C++ and JavaScript, powers a number of other tools
