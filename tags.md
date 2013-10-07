@@ -1,9 +1,9 @@
 ##Useful OSM tag keys
 
-_Tags have a key and a value. The purpose of this list is to help you pick the right keys to use for your exports/processing without having to spend several days looking at http://wiki.osm.org._
+_OSM tags each have a key and a value. The purpose of this list is to help you pick the right keys to use for your exports/processing without having to spend several days looking at http://wiki.osm.org._
 
 ### General
-* [name](http://wiki.openstreetmap.org/wiki/Name): exactly what it sounds like
+* [name](http://wiki.openstreetmap.org/wiki/Name)
 * name:en : English names of places with names in other languages
 * alt_name, loc_name, official_name, etc.
 
