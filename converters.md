@@ -3,8 +3,8 @@
 ###Smaller datasets:
 
 ####To GeoJSON:
-* osm-and-geojson : an easy web-based tool where you just paste in your OSM XML and click a button
-  * http://aaronlidman.com/osm-and-geojson
+* [osm-and-geojson](http://aaronlidman.com/osm-and-geojson) : an easy web-based tool where you just paste in your OSM XML and click a button
+  * https://github.com/aaronlidman/osm-and-geojson
 * osm2geo: JavaScript that you can add to a webpage to make the browser do the work
   * https://gist.github.com/tecoholic/1396990
 * osmtogeojson: another tool written with JavaScript, can be used as a NodeJS library or a script on a webpage
