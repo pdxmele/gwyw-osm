@@ -2,7 +2,7 @@
 
 A repo for my talk at [NACIS 2013](http://lanyrd.com/2013/nacis/) Practical Cartography Day on how to obtain and prepare OSM data for cartographic use
 
-This repo will eventually include:
+This repo includes:
 
 * [A copy of the presentation](https://github.com/pdxmele/gwyw-osm/raw/master/OSM_NACIS.pdf)
 * [A list of useful OSM data converters](https://github.com/pdxmele/gwyw-osm/blob/master/converters.md)
