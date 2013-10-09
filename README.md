@@ -1,6 +1,6 @@
 ##Getting what you want out of OpenStreetMap
 
-A repo for my talk at NACIS 2013 Practical Cartography Day on how to obtain and prepare OSM data for cartographic use
+A repo for my talk at [NACIS 2013](http://lanyrd.com/2013/nacis/) Practical Cartography Day on how to obtain and prepare OSM data for cartographic use
 
 This repo will eventually include:
 
