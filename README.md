@@ -10,3 +10,5 @@ This repo includes:
 * I may also add some other stuff after the presentation
 
 Please feel free to make pull requests or open up issues with recommendations/additions/changes.
+
+If you like this, please consider donating on Gittip: https://www.gittip.com/pdxmele/
